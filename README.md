@@ -16,8 +16,8 @@ Development of Sensum Crypto Senal
   │       └─ prep (Carpeta Futuros Binance) https://app.com/prep/
   │           ├─ 1inchusdt.js(Pronostico General Grafica) https://app.com/prep/1inchusdt
   │                ├─ 1inchusdt.js(Pronostico Single /5m/15m/30m/1h/2h/4h) https://app.com/prep/1inchusdt/5m
-  
-  │             ├── usdt
+  │                ├─ aaveusdt.js(Pronostico Single /5m/15m/30m/1h/2h/4h) https://app.com/prep/aaveusdt/5m
+  │                ├─ adausdt.js(Pronostico Single /5m/15m/30m/1h/2h/4h) https://app.com/prep/adausdt/5m
   ├── package.json (Información y dependencias)
   ├── public (Nuestros estáticos app.js Index Lista)
   │   ├── images
