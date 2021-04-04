@@ -10,9 +10,12 @@ Development of Sensum Crypto Senal
 
 - Estructura de un Proyecto (MVC)
   ```
-  ├── app.js (Inicio de la aplicación NodeJs)
-  ├── bin (Gestión de la aplicación)
-  │   └── www
+
+  ├──app.js (Inicio de la aplicación NodeJs)
+  │   └── Router [Urls de dependencias]
+  │        └──prep (Carpeta Futuros Binance)
+  │             ├── 1inchusdt
+  │             ├── usdt
   ├── package.json (Información y dependencias)
   ├── public (Nuestros estáticos)
   │   ├── images
@@ -22,7 +25,7 @@ Development of Sensum Crypto Senal
   ├── routes (Nuestros controladores)
   │   ├── index.js
   │   └── users.js
-  └── views (Nuestras vistas/plantillas)
+  └── views real_time (Nuestras vistas/plantillas)
       ├── error.jade
       ├── index.jade
       └── layout.jade
