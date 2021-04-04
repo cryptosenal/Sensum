@@ -2,13 +2,16 @@
 var routeo = function(req, res){
 
    switch(req.url){
-   case '/':
+    case '/':
      res.send("Index Inicio"); //aqui lo que quieras que haga al llegar a /home
    break;
-   case '/1inchusdt':
+    case '/1inchusdt/:time':
       res.send("Nada 2"); //aqui lo que quieras que haga al llegar a /contact
    break;
-       case '/aaveusdt':
+    case '/aaveusdt/:time':
+      res.send("Nada 2"); //aqui lo que quieras que haga al llegar a /contact
+   break;
+    case '/adausdt/:time':
       res.send("Nada 2"); //aqui lo que quieras que haga al llegar a /contact
    break;
    default:
