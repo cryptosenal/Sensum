@@ -9,12 +9,8 @@ const port = 3000;
 
 //Aquí haces el llamado a tu custom module de rutas por ejemplo.
 var xrouter = require('./module-router.js');
-
-
-app.get('*', function (req, res) {
-  
+  app.get('*', function (req, res) {
    xrouter.routeo(req, res);
-  
 });
 
 app.listen(port, () => {
