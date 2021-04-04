@@ -15,7 +15,7 @@ Development of Sensum Crypto Senal
   │   └─ Router [Urls de dependencias]
   │       └─ prep (Carpeta Futuros Binance) https://app.com/prep/
   │           ├─ 1inchusdt.js(Pronostico General Grafica) https://app.com/prep/1inchusdt
-  │                ├─ 1inchusdt.js(Pronostico separado /5m/15m/30m/1h/2h/4h) https://app.com/prep/1inchusdt/5m
+  │                ├─ 1inchusdt.js(Pronostico Single /5m/15m/30m/1h/2h/4h) https://app.com/prep/1inchusdt/5m
   
   │             ├── usdt
   ├── package.json (Información y dependencias)
@@ -24,11 +24,10 @@ Development of Sensum Crypto Senal
   │   ├── javascripts
   │   └── stylesheets
   │       └── style.css
-  ├── routes (Nuestros controladores)
-  │   ├── index.js
-  │   └── users.js
   └── views real_time Pronosticos (Nuestras vistas/plantillas)
-      ├── error.jade
-      ├── index.jade
-      └── layout.jade
-  ```
+      ├── error.mustache
+      ├── header.mustache
+      ├── body_grafica.mustache
+      ├── body_single.mustache
+      └── footer.mustache
+  ``
